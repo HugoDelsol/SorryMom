@@ -1,0 +1,102 @@
+html {
+    background-color: rgb(223, 208, 192);
+}
+
+.liens {
+    margin-top: 2em;
+}
+
+.liens a{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.733);      
+    margin-left: 1em;
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+body {        
+    border-radius: 1em;
+    margin: 5em 10em;
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 3px 20px; 
+}
+
+h1 {   
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+header , footer {     
+    padding: 0.75em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+
+}
+
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.185);
+    justify-content: space-between;    
+}
+
+footer h2 {
+    color: rgba(0, 0, 0, 0.582);
+    margin: 1em 5.5em;
+}
+    
+.resume {
+    text-align: center;
+    display: flex;         
+    
+}
+
+img {    
+    height: 35em;
+    margin-right: 3em;
+}
+
+.texte-tache a {
+    text-decoration: none;
+    background-color: #f5d6ba7a;
+    border-radius: 0.5em;
+    padding: 0.05em 0.75em;
+    box-shadow: 1px 1px 6px black;
+    color: black;
+    font-size: 0.70em;
+    
+}
+
+.texte-tache {
+    position: relative;
+    z-index: 1;
+    font-size: 2.25em;
+    padding: 1em 3.5em;
+    line-height: 2em;
+    border-right: 1px solid rgba(0, 0, 0, 0.192);
+    font-weight: 250; /* plus léger */
+}
+
+.texte-tache::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 600px;
+    height: 300px;
+    background-color: #f5d6ba; 
+    border-radius: 50% ;
+    transform: rotate(-15deg);
+    z-index: -1;
+    opacity: 0.3;
+}
+
+
+.texte-tache a:hover {
+    background-color: #f5d6bad5;
+}
+
