@@ -1,5 +1,3 @@
-https://golo-glog.github.io/SorryMom/
-
 # Sorry Mom
 
 **Sorry Mom** est un projet humoristique conçu pour générer des excuses farfelues dans différentes situations de la vie quotidienne. Ce projet a pour objectif d'apporter une touche d'humour et de légèreté à des scénarios typiques tels que les réunions de travail, les événements sociaux ou encore les appels téléphoniques, tout en gardant un aspect non sérieux et amusant.
